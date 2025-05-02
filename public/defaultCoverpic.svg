@@ -1,0 +1,20 @@
+<svg width="2048" height="683" viewBox="0 0 2048 683" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color=" #cf93f3 " />
+      <stop offset="100%" stop-color=" #7612b3" />
+    </linearGradient>
+    
+  </defs>
+  
+  <!-- Background rectangle -->
+  <rect width="2048" height="683" fill="url(#gradient)" />
+  <rect width="2048" height="683" fill="url(#pattern)" />
+  
+  <!-- Center icon/text (scaled up for 2K) -->
+  <g transform="translate(1024, 341.5)" fill="white" text-anchor="middle">
+    
+    <text  font-size="36" font-weight="500" font-family="sans-serif">Cover Photo</text>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+What i learned
+
+1. Order needs to be created for every payment . To create order Order api is used on server side.
+Create a serveraction.js file with "use server" on top. Here we create a function to create an order ID using OrderAPI and it an be used on client side on step 2. Code below:
+    var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' }) 
+
+instance.orders.create({
+    // sample data sent like this
+amount: 5000,
+currency: "INR",
+receipt: "receipt#1",
+notes: {
+    key1: "value3",
+    key2: "value2"
+}
+})
+
+//or use an object to store any dataa other than placeholder data ** amount and currency are the only mandatory params needed 
+const options = {
+        amount: Number.parseInt(amount),
+        currency: "INR"
+    }
+    // creating an instance with dynamic data
+    const x =await instance.orders.create(options);
+ A response will have the order id required for next process which we can store in database for now like: await Payment.create({ oid: x.id, amount: x.amount, to_user: to_user, name: paymentform.name, message: paymentform.message })
+
+ 2. Need to integrate on Client side like a payment button 
+ <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script> include this on the page 
+ In the function for onClick we first get the orderID by calling the function from serveraction.js.
+        let a=await initiate(amount,username,paymentform)
+        let orderID=a.id
+then we include the rest code from script and modify it a bit like:
+        var options = {
+            "key": process.env.KEY_ID, // Enter the Key ID generated from the Razorpay Dashboard ** 
+            "amount": amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+            "currency": "INR",
+            "name": "Acme Corp", //your business name
+            "description": "Test Transaction",
+            "image": "https://example.com/your_logo",
+            "order_id": orderID, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1 **
+            "callback_url": `${process.env.NEXT_PUBLIC_URL}/api/razorpay`, ** this is where the payment will be handled in step 3
+            "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+                "name": "Gaurav Kumar", //your customer's name
+                "email": "gaurav.kumar@example.com",
+                "contact": "9000090000" //Provide the customer's phone number for better conversion rates 
+            },
+            "notes": {
+                "address": "Razorpay Corporate Office"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+Here we only changed ** items [necessary]
+
+3. Whenever we start a payment it results into a success or faliure which we need to handle . SO from step 2 when we do a payment it redirects to callback_url in options. To handle it we create a route.js on that path.
+Here we handle a POST request by using code
+    let body=await req.formData();
+    body=Object.fromEntries(body);// basically we store the req into body as an object to use its property. when a payment succeds it returns following fields in checkout form
+    {
+        "razorpay_payment_id": "pay_29QQoUBi66xm2f",
+        "razorpay_order_id": "order_9A33XWu170gUtm",
+        "razorpay_signature": "9ef4dffbfd84f1318f6739a3ce19f9d85851857ae648f114332d8401e0949a3d"
+    }
+    we can store them or use them to validate payment.
+    To validte a payment we call the function :
+        let vp=validatePaymentVerification({"order_id":body.razorpay_order_id,"payment_id":body.razorpay_payment_id},body.razorpay_signature,process.env.KEY_SECRET)
+    Here if verification is a success we can update our database and use NextResponse.redirect("url")to redirect to the page we desire and if the verification fails we use NextResponse.json({success:false,message:"Verification failed"}) as a way to show user that verification failed.
+
