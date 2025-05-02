@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { fetchAllUsers } from '@/actions/useractions'
 import { useEffect, useState } from 'react'
