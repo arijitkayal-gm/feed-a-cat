@@ -7,7 +7,7 @@ const About = () => {
         <div className="container mx-auto px-6 py-10">
             <h1 className="text-4xl font-bold text-center mb-6">🐾 About Feed a Cat</h1>
             <p className="text-center text-gray-300 text-lg max-w-3xl mx-auto">
-                Welcome to <span className="font-semibold">Feed a Cat</span>, the purr-fect place where kindness meets whiskers. We've built a heartfelt platform where anyone can create a profile for a cat in need, share their story, and let others contribute with love (and money!)—one paw at a time.
+                Welcome to <span className="font-semibold">Feed a Cat</span>, the purr-fect place where kindness meets whiskers. We&apos;ve built a heartfelt platform where anyone can create a profile for a cat in need, share their story, and let others contribute with love (and money!)—one paw at a time.
             </p>
 
             <div className="mt-10 space-y-8">
@@ -16,7 +16,7 @@ const About = () => {
                 <div className="bg-neutral-800 hover:bg-neutral-700 p-6 sm:p-8 rounded-sm shadow-md shadow-black hover:shadow-lg">
                     <h2 className="text-2xl font-bold text-center sm:text-left">😻 Our Mission</h2>
                     <p className="text-gray-300 mt-2">
-                        We believe that <span className="font-semibold">every cat deserves to be seen, supported, and spoiled</span>. Whether it's a rescue in need, a stray with a story, or a shelter superstar, we make it easy to give them the spotlight—and the support—they deserve.
+                        We believe that <span className="font-semibold">every cat deserves to be seen, supported, and spoiled</span>. Whether it&apos;s a rescue in need, a stray with a story, or a shelter superstar, we make it easy to give them the spotlight—and the support—they deserve.
                     </p>
                     <ul className="mt-3 space-y-2 list-disc list-inside text-gray-300">
                         <li>✔ <span className="font-medium">Create cat profiles</span> with names, bios, and heart-melting photos.</li>
@@ -42,7 +42,7 @@ const About = () => {
                         <div className="text-center">
                             <span className="text-3xl">3️⃣</span>
                             <p className="text-gray-300 mt-2 font-medium">Celebrate Contributors</p>
-                            <p className="text-sm text-gray-400">Donors are displayed on the cat's page—because kindness should never be a secret.</p>
+                            <p className="text-sm text-gray-400">Donors are displayed on the cat&apos;s page—because kindness should never be a secret.</p>
                         </div>
                     </div>
                 </div>
@@ -61,10 +61,10 @@ const About = () => {
                 <div className="bg-neutral-800 hover:bg-neutral-700 p-6 sm:p-8 rounded-sm shadow-md shadow-black hover:shadow-lg">
                     <h2 className="text-2xl font-bold text-center sm:text-left">🙋‍♂️ For the Human Slaves</h2>
                     <p className="text-gray-300 mt-2">
-                        Whether you're a devoted cat butler, snack supplier, or full-time ear-scratcher, this platform is built with <span className="italic">you</span> in mind. Every user gets the power to:
+                        Whether you&apos;re a devoted cat butler, snack supplier, or full-time ear-scratcher, this platform is built with <span className="italic">you</span> in mind. Every user gets the power to:
                     </p>
                     <ul className="mt-3 space-y-2 list-disc list-inside text-gray-300">
-                        <li>✔ Create a profile for a cat in need—because they obviously can't type (yet).</li>
+                        <li>✔ Create a profile for a cat in need—because they obviously can&apos;t type (yet).</li>
                         <li>✔ Upload adorable photos to show off their whiskered majesty.</li>
                         <li>✔ Accept donations and display sweet messages from fellow cat worshippers.</li>
                         <li>✔ Connect with a growing tribe of feline fanatics making real impact.</li>
@@ -75,20 +75,20 @@ const About = () => {
                 <div className="bg-neutral-800 hover:bg-neutral-700 p-6 sm:p-8 rounded-sm shadow-md shadow-black hover:shadow-lg">
                     <h2 className="text-2xl font-bold text-center sm:text-left">📚 Cat Pun Glossary (For the Uninitiated)</h2>
                     <p className="text-gray-300 mt-2">
-                        Not fluent in Cat-speak? Here's what those weirdly adorable phrases mean:
+                        Not fluent in Cat-speak? Here&apos;s what those weirdly adorable phrases mean:
                     </p>
                     <ul className="mt-3 space-y-2 list-disc list-inside text-gray-300">
-                        <li><span className="font-semibold">Purr-sona</span> - A cat's profile/personality—because they each have a vibe.</li>
+                        <li><span className="font-semibold">Purr-sona</span> - A cat&apos;s profile/personality—because they each have a vibe.</li>
                         <li><span className="font-semibold">Floof</span> - A fluffy, usually chonky cat.</li>
                         <li><span className="font-semibold">Meow-gical</span> - Magical, but better because it involves meows.</li>
                         <li><span className="font-semibold">Whisker-approved</span> - Something a cat would definitely nod at (or ignore gracefully).</li>
-                        <li><span className="font-semibold">Human Slaves</span> - A playful term for cat owners, because let's be honest… who's really in charge?</li>
+                        <li><span className="font-semibold">Human Slaves</span> - A playful term for cat owners, because let&apos;s be honest… who&apos;s really in charge?</li>
                         <li><span className="font-semibold">Paw-sitive</span> - Positive, with a touch of paw-someness.</li>
                         <li><span className="font-semibold">Meow-ment</span> - A meaningful or adorable moment shared with a cat.</li>
-                        <li><span className="font-semibold">Catributors</span> - Donors or supporters who contribute to a cat's wellbeing.</li>
+                        <li><span className="font-semibold">Catributors</span> - Donors or supporters who contribute to a cat&apos;s wellbeing.</li>
                         <li><span className="font-semibold">Cat-alogue</span> - A fancy way of saying cat gallery or profile list.</li>
                         <li><span className="font-semibold">Fur-ther Read</span> - Additional info or articles for those who want to dig their claws in deeper.</li>
-                        <li><span className="font-semibold">Feed the Purrpose</span> - Support the mission, feed a cat, and spread the love—it's more than a pun, it's a calling.</li>
+                        <li><span className="font-semibold">Feed the Purrpose</span> - Support the mission, feed a cat, and spread the love—it&apos;s more than a pun, it&apos;s a calling.</li>
                     </ul>
                 </div>
 
@@ -96,7 +96,7 @@ const About = () => {
 
             <div className="mt-10 text-center">
                 <p className="text-lg text-gray-300 mb-4">
-                    Start your journey today—create a cat profile, share their story, and help make a difference (plus, who doesn't love more cat pics?). 🐾
+                    Start your journey today—create a cat profile, share their story, and help make a difference (plus, who doesn&apos;t love more cat pics?). 🐾
                 </p>
                 <Link href={"/login"}>
                     <button className={Button}>

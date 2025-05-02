@@ -38,7 +38,7 @@ export default function Home() {
               <img src="/kitteneat.gif" className="w-full h-full object-cover" alt="Cats in photo booth" loading="lazy" />
             </div>
             <p className="font-bold text-center">Claw-some Cat Gallery</p>
-            <p className="text-center text-sm text-gray-300">Show off your feline in our gallery. 9/10 cats agree it's better than knocking things off tables.</p>
+            <p className="text-center text-sm text-gray-300">Show off your feline in our gallery. 9/10 cats agree it&apos;s better than knocking things off tables.</p>
           </div>
 
           {/* Feature 3: Donations */}
