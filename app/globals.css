@@ -1,2 +1,19 @@
 @import "tailwindcss";
 
+/* Thin scrollbar styling */
+.scrollbar-thin {
+  scrollbar-width: thin;         /* Firefox */
+  scrollbar-color: #888 #1a1a1a; /* Thumb and track colors */
+}
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+

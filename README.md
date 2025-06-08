@@ -1,45 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center" id="top"> 
+  <img src="./.github/app.gif" alt="Feed a Cat" />
 
-## Getting Started
+  &#xa0;
 
-First, run the development server:
+  <a href="https://feed-a-cat.vercel.app">Demo</a>
+</div>
+
+<h1 align="center">Feed a Cat</h1>
+
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=56BEB8">
+
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/arijitkayal-gm/feed-a-cat?color=56BEB8">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/arijitkayal-gm/feed-a-cat?color=56BEB8">
+
+  <a href="https://github.com/arijitkayal-gm/feed-a-cat/blob/main/README.md" target="_blank">
+    <img alt="License" src="https://img.shields.io/github/license/arijitkayal-gm/feed-a-cat?color=56BEB8">
+  </a>
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/arijitkayal-gm/feed-a-cat?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/arijitkayal-gm/feed-a-cat?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/arijitkayal-gm/feed-a-cat?color=56BEB8" /> -->
+</p>
+
+<!-- Status -->
+
+<!-- <h4 align="center"> 
+	🚧  Feed a Cat 🚀 Under construction...  🚧
+</h4> 
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="thought_balloon-inspiration">Inspiration</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/arijitkayal-gm" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+**Feed A Cat** is a playful Next.js app showcasing a user directory—perfect for practicing modern React/Next.js features like `use client`, server actions, loading states, Skeleton UI, routing, and Tailwind CSS. Think of it as a community of cat lovers (“purr-sonalities”)!
+
+## :sparkles: Features ##
+
+:heavy_check_mark: **Create Cat Profiles**
+Add their name, touching bio, and the kind of heart-melting photo that could stop time.
+
+:heavy_check_mark: **Upload Adorable Images**
+Profile pic, cover photo, and a full Cat-alogue to showcase their whiskered majesty.
+
+:heavy_check_mark: **Accept Donations**
+Visitors can contribute to a cat's wellbeing, accompanied by a meow-gical message of support.
+
+:heavy_check_mark: **Celebrate Contributors (aka Catributors)**
+Donors are honored right on the cat’s profile—because kindness should never be a secret.
+
+:heavy_check_mark: **Responsive UI with Whisker-Approved Design**
+Optimized for all screen sizes with a layout as soft as a belly rub.
+
+:heavy_check_mark: **Skeleton Loaders**
+Loading states are presented with animated placeholders to keep the vibe purr-fessional.
+
+:heavy_check_mark: **Scrollable and Truncated Bios**
+Bios too long? We elegantly handle overflow with ellipsis or scrollbars—never a dull scroll.
+
+:heavy_check_mark: **Built for Human Slaves**
+Whether you scoop the litter or serve snacks, you can manage cat profiles with ease and love.
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+<a href="https://nextjs.org">
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" height="40" alt="nextjs logo"  />
+</a> &#xa0; &#xa0;
+<a href="https://tailwindcss.com">
+  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="tailwindcss logo"  />
+</a> &#xa0; &#xa0;
+
+###
+
+<details>
+  <summary>See more</summary>
+
+  ###
+
+  * [Sonner](https://ui.shadcn.com/docs/components/sonner)
+  * [bcryptjs](https://www.npmjs.com/package/bcryptjs)
+  * [Mongoose](https://mongoosejs.com/)
+  * [NextAuth.js](https://next-auth.js.org/)
+
+</details>
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+## :checkered_flag: Starting ##
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this project
+$ git clone https://github.com/arijitkayal-gm/feed-a-cat
+
+# Access
+$ cd feed-a-cat
+
+# Install dependencies
+$ npm install
+
+# Run the project
+$ npm run dev
+
+# The server will initialize in the <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :thought_balloon: Inspiration ##
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Inspired by playful cat apps and tutorials, this project is less about real-world utility and more about learning modern frontend patterns with a lighthearted theme. Enjoy the code. Enjoy the cats! 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## :memo: License ##
 
-## Learn More
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with :heart: by <a href="https://github.com/arijitkayal-gm" target="_blank">Arijit Kayal</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+&#xa0;
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-Personal Notes:
-For using nextauth
-1. Wrap the whole app in sessionprovider and make it client side or add a client side component where u wrapp children in SessionProvider and later wrap the main layout children in the component created.
-2. Create a route.js on api/auth/[...nextauth]/ and copy the code from nextauth website
-3. Changes are made as it is a route.js we change "export default NextAuth()" to "export const authoptions= NextAuth()"
-4. Adding "export {authoptions as GET, authoptions as POST}" 
-5. Create an .env.local file and add the id and secrets needed in NextAuth in route.js
-6. Now we can easily use (useSession, signIn, signOut) whereever we want by making that a client side component and use them.
+<a href="#top">Back to top</a>

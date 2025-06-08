@@ -1,6 +1,6 @@
 {
-  "name": "chai-clone",
-  "version": "0.1.0",
+  "name": "feed-a-cat",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
