@@ -11,12 +11,18 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/arijitkayal-gm/feed-a-cat?color=56BEB8">
+  <a href="https://nextjs.org/" target="_blank">
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
+  </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/arijitkayal-gm/feed-a-cat?color=56BEB8">
+  <img alt="Javascript" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=blue">
 
-  <a href="https://github.com/arijitkayal-gm/feed-a-cat/blob/main/README.md" target="_blank">
-    <img alt="License" src="https://img.shields.io/github/license/arijitkayal-gm/feed-a-cat?color=56BEB8">
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white">
+  </a>
+
+  <a href="https://github.com/arijitkayal-gm/feed-a-cat/blob/main/LICENSE.md" target="_blank">
+    <img alt="License" src="https://img.shields.io/github/license/arijitkayal-gm/feed-a-cat?color=yellow">
   </a>
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/arijitkayal-gm/feed-a-cat?color=56BEB8" /> -->
@@ -40,7 +46,7 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="thought_balloon-inspiration">Inspiration</a> &#xa0; | &#xa0;
+  <a href="#thought_balloon-inspiration">Inspiration</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/arijitkayal-gm" target="_blank">Author</a>
 </p>
