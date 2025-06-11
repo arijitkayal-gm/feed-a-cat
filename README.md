@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Feed a Cat" />
+  <img src="./assets/fac-gif.gif" alt="Feed a Cat" />
 
   &#xa0;
 
@@ -9,7 +9,6 @@
 <h1 align="center">Feed a Cat</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=56BEB8">
 
   <a href="https://nextjs.org/" target="_blank">
     <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
@@ -82,6 +81,15 @@ Bios too long? We elegantly handle overflow with ellipsis or scrollbars—never 
 
 :heavy_check_mark: **Built for Human Slaves**
 Whether you scoop the litter or serve snacks, you can manage cat profiles with ease and love.
+
+## Screenshots ##
+
+<div style="display:grid;grid-template-columns: repeat(2, 1fr); gap: 25px; " >
+  <img src="./assets/fac-prof.png" alt="" />
+  <img src="./assets/fac-dash.png" alt="" />
+  <img src="./assets/fac-login.png" alt="" />
+  <img src="./assets/fac-about.png" alt="" />
+</div>
 
 ## :rocket: Technologies ##
 
