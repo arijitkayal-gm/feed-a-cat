@@ -11,17 +11,17 @@
 <p align="center">
 
   <a href="https://nextjs.org/" target="_blank">
-    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
+    <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-purple?logo=next.js">
   </a>
 
-  <img alt="Javascript" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=blue">
+  <img alt="Javascript" src="https://img.shields.io/github/languages/top/arijitkayal-gm/feed-a-cat?color=purple">
 
   <a href="https://tailwindcss.com/" target="_blank">
-    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white">
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-purple?logo=tailwind-css&logoColor=white">
   </a>
 
   <a href="https://github.com/arijitkayal-gm/feed-a-cat/blob/main/LICENSE.md" target="_blank">
-    <img alt="License" src="https://img.shields.io/github/license/arijitkayal-gm/feed-a-cat?color=yellow">
+    <img alt="License" src="https://img.shields.io/github/license/arijitkayal-gm/feed-a-cat?color=purple">
   </a>
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/arijitkayal-gm/feed-a-cat?color=56BEB8" /> -->
@@ -42,6 +42,7 @@
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#camera-screenshots">Screenshots</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -82,14 +83,14 @@ Bios too long? We elegantly handle overflow with ellipsis or scrollbars—never 
 :heavy_check_mark: **Built for Human Slaves**
 Whether you scoop the litter or serve snacks, you can manage cat profiles with ease and love.
 
-## Screenshots ##
+## :camera: Screenshots ##
 
-<div style="display:grid;grid-template-columns: repeat(2, 1fr); gap: 25px; " >
-  <img src="./assets/fac-prof.png" alt="" />
-  <img src="./assets/fac-dash.png" alt="" />
-  <img src="./assets/fac-login.png" alt="" />
-  <img src="./assets/fac-about.png" alt="" />
-</div>
+<img src="./assets/fac-prof.png" alt="Profile Page" width="400"/>
+<img src="./assets/fac-dash.png" alt="Dashboard" width="400"/>
+<img src="./assets/fac-login.png" alt="Login Page" width="400"/>
+<img src="./assets/fac-about.png" alt="About Page" width="400"/>
+
+✅ Option 2: Use a table to simulate a grid
 
 ## :rocket: Technologies ##
 
